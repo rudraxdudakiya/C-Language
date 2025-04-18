@@ -1,0 +1,6 @@
+09:38:58 **** Incremental Build of configuration Debug for project switch_calc ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:38:58 Build Finished. 0 errors, 0 warnings. (took 165ms)
+

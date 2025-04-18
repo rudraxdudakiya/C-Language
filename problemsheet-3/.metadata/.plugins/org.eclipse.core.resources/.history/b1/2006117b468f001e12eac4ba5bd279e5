@@ -1,0 +1,36 @@
+/*
+ * q26.c
+ *
+ *  Created on: 30-Nov-2023
+ *      Author: root
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	char s[50];
+	printf("Enter the string=");
+	scanf("%s",s);
+
+	int length=0,i=0;
+	while(length!='\0')
+	{
+		length++;
+		i++;
+	}
+	int pos;
+	printf("enter the location=");
+	scanf("%d",&pos);
+	if(pos>length)
+	{
+		printf("error");
+		exit(1);
+	}
+	for(i=length;i<pos;i++)
+	{
+		s[i]=s[i-1];
+	}
+	printf("string after shifting=%s",s);
+	return 0;
+}

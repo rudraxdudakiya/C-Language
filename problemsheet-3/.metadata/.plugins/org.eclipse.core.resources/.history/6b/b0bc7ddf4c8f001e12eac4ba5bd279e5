@@ -1,0 +1,46 @@
+/*
+ * q2.c
+ *
+ *  Created on: 21-Oct-2023
+ *      Author: root
+ */
+#include<stdio.h>
+#define size 10
+int main()
+{
+	int a[size],i,j,count=0;
+
+	//taking input of Array elements
+	printf("enter %d elements=\n",size);
+	for(i=0;i<size;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	for(i=0;i<size;i++)
+	{
+		printf("%d\t",a[i]);
+	}
+
+	//checking for prime number
+	printf("prime numbers\n");
+	for(i=0;i<size;i++)
+	{
+		int flag=0;
+		for(j=2;j<a[i];j++)
+		{
+			if(a[i]%j==0)
+			{
+				flag=1;
+				break;
+			}
+		}
+		if(flag==0)
+		{
+			printf("%d\t");
+			count++;
+		}
+	}
+
+	printf("\nTotal prime number=%d",count);
+	return 0;
+}

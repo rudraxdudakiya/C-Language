@@ -1,0 +1,15 @@
+09:38:56 **** Build of configuration Debug for project day_switch ****
+make all 
+Building file: ../day_switch.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"day_switch.d" -MT"day_switch.o" -o "day_switch.o" "../day_switch.c"
+Finished building: ../day_switch.c
+ 
+Building target: day_switch
+Invoking: GCC C Linker
+gcc  -o "day_switch"  ./day_switch.o   
+Finished building target: day_switch
+ 
+
+09:38:57 Build Finished. 0 errors, 0 warnings. (took 166ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;day_switch/switch.c&apos; to &apos;day_switch.c&apos;" description="Rename resource &apos;switch.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="switch.c" name="day_switch.c" stamp="1693807630134" updateReferences="true"/>
+</session>

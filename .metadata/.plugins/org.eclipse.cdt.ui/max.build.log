@@ -1,0 +1,18 @@
+09:39:32 **** Build of configuration Debug for project max ****
+make all 
+Building file: ../max.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"max.d" -MT"max.o" -o "max.o" "../max.c"
+Finished building: ../max.c
+ 
+Building target: max
+Invoking: GCC C Linker
+gcc  -o "max"  ./max.o   
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:42: max] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+09:39:32 Build Failed. 3 errors, 0 warnings. (took 163ms)
+

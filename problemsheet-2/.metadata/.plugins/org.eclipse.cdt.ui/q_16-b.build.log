@@ -1,0 +1,15 @@
+08:17:53 **** Build of configuration Debug for project q_16-b ****
+make all 
+Building file: ../q16-b.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q16-b.d" -MT"q16-b.o" -o "q16-b.o" "../q16-b.c"
+Finished building: ../q16-b.c
+ 
+Building target: q_16-b
+Invoking: GCC C Linker
+gcc  -o "q_16-b"  ./q16-b.o   
+Finished building target: q_16-b
+ 
+
+08:17:53 Build Finished. 0 errors, 0 warnings. (took 164ms)
+

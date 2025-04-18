@@ -1,0 +1,15 @@
+11:03:27 **** Build of configuration Debug for project q_11 ****
+make all 
+Building file: ../q11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q11.d" -MT"q11.o" -o "q11.o" "../q11.c"
+Finished building: ../q11.c
+ 
+Building target: q_11
+Invoking: GCC C Linker
+gcc  -o "q_11"  ./q11.o   
+Finished building target: q_11
+ 
+
+11:03:27 Build Finished. 0 errors, 0 warnings. (took 164ms)
+

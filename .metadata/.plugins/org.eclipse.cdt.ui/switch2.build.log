@@ -1,0 +1,15 @@
+09:38:58 **** Build of configuration Debug for project switch2 ****
+make all 
+Building file: ../switch2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"switch2.d" -MT"switch2.o" -o "switch2.o" "../switch2.c"
+Finished building: ../switch2.c
+ 
+Building target: switch2
+Invoking: GCC C Linker
+gcc  -o "switch2"  ./switch2.o   
+Finished building target: switch2
+ 
+
+09:38:58 Build Finished. 0 errors, 0 warnings. (took 163ms)
+

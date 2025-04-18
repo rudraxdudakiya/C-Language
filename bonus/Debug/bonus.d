@@ -1,0 +1,1 @@
+bonus.o: ../bonus.c

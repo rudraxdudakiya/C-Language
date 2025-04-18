@@ -1,0 +1,6 @@
+17:29:08 **** Build of configuration Debug for project q_1 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MinGW\bin;C:\Program Files\Java\jdk-21\bin;C:\MinGW\bin;C:\Users\Rudrax\AppData\Local\Programs\Microsoft VS Code\bin]

@@ -1,0 +1,28 @@
+09:56:29 **** Build of configuration Debug for project Ascending_order ****
+make all 
+Building file: ../arr6.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arr6.d" -MT"arr6.o" -o "arr6.o" "../arr6.c"
+../arr6.c: In function ‘main’:
+../arr6.c:11:26: warning: unused variable ‘n’ [-Wunused-variable]
+   11 |  int array[size]={0},i,j,n;
+      |                          ^
+../arr6.c:11:24: warning: unused variable ‘j’ [-Wunused-variable]
+   11 |  int array[size]={0},i,j,n;
+      |                        ^
+../arr6.c:11:22: warning: unused variable ‘i’ [-Wunused-variable]
+   11 |  int array[size]={0},i,j,n;
+      |                      ^
+../arr6.c:11:6: warning: unused variable ‘array’ [-Wunused-variable]
+   11 |  int array[size]={0},i,j,n;
+      |      ^~~~~
+Finished building: ../arr6.c
+ 
+Building target: Ascending_order
+Invoking: GCC C Linker
+gcc  -o "Ascending_order"  ./arr6.o   
+Finished building target: Ascending_order
+ 
+
+09:56:29 Build Finished. 0 errors, 4 warnings. (took 166ms)
+

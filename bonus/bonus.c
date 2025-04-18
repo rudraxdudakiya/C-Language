@@ -1,0 +1,41 @@
+/*
+ * bonus.c
+ *
+ *  Created on: 04-Sep-2023
+ *      Author: root
+ */
+#include<stdio.h>
+int main()
+{
+	int cy,jy,exp;
+	printf("enter cy&jy\n");
+	scanf("%d%d",&cy,&jy);
+
+	if(cy<jy)
+	{
+		printf("enter cy>jy");
+	}
+	else
+	{
+	exp = cy-jy;
+	printf("exp=%d\n",exp);
+		if(exp>=5)
+		{
+			printf("bonus rs.5000");
+		}
+		else
+		{
+			if(exp>=3)
+			{
+				printf("bonus rs.3000");
+			}
+			else
+			{
+				printf("no bonus");
+			}
+		}
+	}
+	return 0;
+}
+
+

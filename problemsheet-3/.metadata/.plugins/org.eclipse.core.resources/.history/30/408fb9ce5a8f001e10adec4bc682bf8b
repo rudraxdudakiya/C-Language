@@ -1,0 +1,43 @@
+/*
+ * q8.c
+ *
+ *  Created on: 10-Nov-2023
+ *      Author: root
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	char s1[20];
+	char s2[20];
+	int n,i=0,diff=0;
+	printf("enter string1=");
+	scanf("%s",s1);
+	printf("enter string2=");
+	scanf("%s",s2);
+	printf("enter nN number of character=");
+	scanf("%d",&n);
+	printf("first string=%s\nsecond string=%s\n",s1,s2);
+
+	while(i!=n)
+	{
+		diff=s1[i]-s2[i];
+		if(diff!=0)
+		{
+			printf("not equal diff=%d",diff);
+			break;
+		}
+		else
+		{
+			if(i==n-1)
+			{
+				printf("equal\n");
+			}
+		}
+	    i++;
+	}
+
+	return 0;
+}
+

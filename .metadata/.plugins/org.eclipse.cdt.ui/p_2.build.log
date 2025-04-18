@@ -1,0 +1,7 @@
+09:24:32 **** Build of configuration Debug for project p_2 ****
+make all 
+make: *** No rule to make target '2.o', needed by 'p_2'.  Stop.
+"make all" terminated with exit code 2. Build might be incomplete.
+
+09:24:32 Build Failed. 1 errors, 0 warnings. (took 112ms)
+

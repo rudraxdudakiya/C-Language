@@ -1,0 +1,31 @@
+09:21:10 **** Incremental Build of configuration Debug for project q_16 ****
+make all 
+Building file: ../q16-10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q16-10.d" -MT"q16-10.o" -o "q16-10.o" "../q16-10.c"
+../q16-10.c: In function ‘main’:
+../q16-10.c:12:11: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+   12 |    printf("");
+      |           ^~
+Finished building: ../q16-10.c
+ 
+Building file: ../q16-7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q16-7.d" -MT"q16-7.o" -o "q16-7.o" "../q16-7.c"
+../q16-7.c: In function ‘main’:
+../q16-7.c:18:11: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+   18 |    printf("");
+      |           ^~
+Finished building: ../q16-7.c
+ 
+Building target: q_16
+Invoking: GCC C Linker
+gcc  -o "q_16"  ./q16-10.o ./q16-7.o   
+/usr/bin/ld: ./q16-7.o: in function `main':
+/root/sem1_23/c_language/problemsheet-2/q_16/Debug/../q16-7.c:9: multiple definition of `main'; ./q16-10.o:/root/sem1_23/c_language/problemsheet-2/q_16/Debug/../q16-10.c:3: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:42: q_16] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+09:21:10 Build Failed. 3 errors, 2 warnings. (took 163ms)
+

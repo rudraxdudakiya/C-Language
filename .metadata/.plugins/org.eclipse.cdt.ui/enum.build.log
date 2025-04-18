@@ -1,0 +1,22 @@
+09:51:44 **** Incremental Build of configuration Debug for project enum ****
+make all 
+Building file: ../enum.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"enum.d" -MT"enum.o" -o "enum.o" "../enum.c"
+../enum.c: In function ‘main’:
+../enum.c:15:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘enum day *’ [-Wformat=]
+   15 |  scanf("%d",&d);
+      |         ~^  ~~
+      |          |  |
+      |          |  enum day *
+      |          int *
+Finished building: ../enum.c
+ 
+Building target: enum
+Invoking: GCC C Linker
+gcc  -o "enum"  ./enum.o   
+Finished building target: enum
+ 
+
+09:51:44 Build Finished. 0 errors, 1 warnings. (took 165ms)
+

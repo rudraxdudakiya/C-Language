@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;loop&apos; to &apos;entrycontrolled_loop&apos;" description="Rename resource &apos;loop&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/loop" name="entrycontrolled_loop" stamp="1693805479365" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;switch&apos; to &apos;day_switch&apos;" description="Rename resource &apos;switch&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/switch" name="day_switch" stamp="1693807606735" updateReferences="true"/>
+</session>

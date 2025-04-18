@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;entrycontrolled_loop/loop.c&apos; to &apos;entry_loop.c&apos;" description="Rename resource &apos;loop.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="loop.c" name="entry_loop.c" stamp="1693805555503" updateReferences="true"/>
+</session>
